@@ -1,7 +1,8 @@
 # Slurm on Hummingbird
-
-```ssh ikhajehn@hb.ucsc.edu```
-```cd ~/pout``` 
+```
+ssh ikhajehn@hb.ucsc.edu
+cd ~/pout
+``` 
 
 # Important Modules to Know
 ```
