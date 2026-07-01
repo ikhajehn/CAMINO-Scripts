@@ -36,6 +36,10 @@ Note that originally when this script was written, I made out and error folders 
 ```
 mkdir -p sra_download_out sra_download_err
 ```
+I set the path to the directory where my SRR list was. This is also where I wanted the downloaded files to appear. 
+```
+cd /scratch/ikhajehn
+```
 A conda environment must be created to use ```prefetch``` and ```fasterq-dump``` commands. In the script, make sure you activate a conda environment as a first step, and load any necessary software. 
 ```
 module load miniconda3
@@ -53,3 +57,14 @@ Lastly, I downloaded the reads using ```fasterq-dump```
 ```
 fasterq-dump "{$SRA}"
 ```
+# Miscellaneous Notes 
+## Memory
+Allotted Memory: 10GB
+Memory Utilizied: 606.95 MB 
+
+## Time 
+Allotted Time: 03:00:00
+Job Completion Time: 00:19:11
+
+## Note for the Future
+This was my first ever successful job submitted with limited guidance. On future scripts, I direct a path to my ```pout``` folder as opposed to ```scratch``` because it will backed up and organized. Having it output into my main directory also removes the need for moving files over between directories. 
