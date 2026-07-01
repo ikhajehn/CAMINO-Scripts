@@ -1,4 +1,6 @@
 # Slurm on Hummingbird
+
+Logging onto HB using terminal
 ```
 ssh ikhajehn@hb.ucsc.edu
 cd ~/pout
