@@ -8,7 +8,7 @@ cd ~/pout
 
 # Important Modules to Know
 ```
-module load miniconda3   # to load SRA-Toolkit (which will include fasterq-dump, multiqc, and more)
+module load miniconda3                # to load SRA-Toolkit (which will include fasterq-dump, multiqc, and more)
   conda activate [environment name]   # create and/or activate a conda environment
 module load fastqc
 module load multiqc
@@ -21,7 +21,7 @@ module load star
 Note that these softwares may already be present on HPC, but it is useful to know how to install softwares using Anaconda and/or Homebrew 
 ```
 conda install -c bioconda:sra_tools   # download SRA-toolkit
-brew install git    # download git
+brew install git                      # download git
 ```
 
 # Pushing Scripts onto GitHub via Terminal 
@@ -40,7 +40,7 @@ git clone https://github.com/ikhajehn/CAMINO-Scripts.git
 ```
 mv [file name] ~/pout/CAMINO-Scripts/    # Remember that the file must be in the local repository
 cd ~/pout/CAMINO-Scripts/
-git pull    # Make sure the local and remote repositories are up-to-date
+git pull                                 # Make sure the local and remote repositories are up-to-date
 git add [file name]
 git commit -m "Title"
 git push
