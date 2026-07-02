@@ -45,7 +45,7 @@ git clone https://github.com/ikhajehn/CAMINO-Scripts.git
 ## Uploading to GitHub
 Use the following commands to upload a file into GitHub 
 ```
-mv [file name] /path/to/repository    # Remember that the file must be in the local repository
+mv /path/to/file /path/to/repository    # Remember that the file must be in the local repository
 cd /path/to/repository
 git pull                              # Make sure the local and remote repositories are up-to-date
 git add [file name]
