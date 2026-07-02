@@ -83,7 +83,12 @@ Before using CyberDuck, we need to configure it to get access to all our files o
 7. Under Download Folder, select the folder you wish the files to be transferred to
 
 ## Moving Files with CyberDuck
-Once you click **Connect**, CyberDuck should be configured properly and have access to your files on HB. Click into the connection and select the folder where the FastQC and MultiQC files are located. You can click and drag the ```.html``` files from CyberDuck directly into Finder or File Explorer. 
+
+1. Click **Connect**,
+2. Check if CyberDuck is configured properly, and it has access to your files on HB.
+3. Click into the connection
+4. Select the folder where the FastQC and MultiQC files are located
+5. Click and drag the ```.html``` files from CyberDuck directly into Finder or File Explorer. 
 
 # Miscellaneous Notes 
 ## Memory 
