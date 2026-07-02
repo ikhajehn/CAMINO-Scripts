@@ -4,7 +4,7 @@ Making a genome index compresses and organizes all the FASTA files into a search
 
 My command for creating a genome index on HB
 ```
-module load star && STAR --runMode genomeGenerate --genomeDir /home/ikhajehn/pout/genome_index --genomeFastaFiles /home/ikhajehn/pout/reference_genome/ncbi_dataset/data/GCA_040110945.1/GCA_040110945.1_Zoavi_1_2_genomic.fna --sjdbGTFfile /home/ikhajehn/pout/reference_genome/ncbi_dataset/data/GCA_040110945.1/genomic.gtf --sjdbOverhang 149 --runThreadN 8 --genomeSAindexNbases 13
+module load star && STAR --runMode genomeGenerate --genomeDir /path/to/genome_index --genomeFastaFiles /path/to/GGA_*_genomic.fna --sjdbGTFfile /path/to/genomic.gtf --sjdbOverhang 149 --runThreadN 8 --genomeSAindexNbases 13
 ```
 - ```--runMode genomeGenerate``` tells STAR to initiate creation of genome index
 - ```--genomeDir /path/to/genomeDir``` specifies the directory to store genome index in
