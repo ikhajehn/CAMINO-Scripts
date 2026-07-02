@@ -47,7 +47,7 @@ Use the following commands to upload a file into GitHub
 ```
 mv /path/to/file /path/to/repository    # Remember that the file must be in the local repository
 cd /path/to/repository
-git pull                              # Make sure the local and remote repositories are up-to-date
+git pull                                # Make sure the local and remote repositories are up-to-date
 git add [file name]
 git commit -m "Title"
 git push
