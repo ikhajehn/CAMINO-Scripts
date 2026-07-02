@@ -11,7 +11,7 @@ module load star && STAR --runMode genomeGenerate --genomeDir /path/to/genome_in
 - ```--genomeFastaFiles /path/to/genome/fasta1 /path/to/genome/fasta2 ...``` specifies the FASTA file(s) with genome reference sequences
 - ```--sjdbGTFfile /path/to/annotations.gtf``` specifies the path to the annotated transcipts (.gtf file)
 - ```--sjdbOverhang``` specifies the length of the genomic sequence around the annotated junction to be used in constructing the splice junctions database: Read length - 1 (in my case, it would be 150 - 1 = 149)
-- ```--runThreadN #``` defines the number of threads to be used for genome generation (must be equal to number of cores available (I used 8)
+- ```--runThreadN #``` defines the number of threads to be used for genome generation (must be equal to number of cores available)
 
 [STAR Manual](https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf)
 
