@@ -57,7 +57,7 @@ Resource for FastQC Interpretation: [FastQC Manual](https://mugenomicscore.misso
 Script for Running FastQC: [runfastqc.sh](https://github.com/ikhajehn/PopGen_CAMINO/blob/main/Scripts/runfastqc.sh)
 
 # MultiQC Report
-MultiQC is a great tool for visualizing all the FastQC reports at once. 
+MultiQC is a great tool for visualizing multiple FastQC reports at once. 
 
 Running MultiQC
 ```
