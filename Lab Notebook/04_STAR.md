@@ -1,4 +1,4 @@
-# Mapping RNAseq to Reference Genome via STAR Aligner
+# Mapping RNAseq Reads to a Reference Genome via STAR Aligner
 ## Creating a Genome Index
 Making a genome index compresses and organizes all the FASTA files into a searchable dictionary for STAR to quickly refer to. ```STAR--``` automatically defaults to a 14 SA pre-indexing string, but it was too large for my genome size = 663017713; therefore, I had to lower it to 13 using ```--genomeSAindexNbases 13```
 
