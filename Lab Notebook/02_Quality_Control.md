@@ -99,7 +99,7 @@ Before using CyberDuck, we need to configure it to get access to all our files o
 - Memory Allotted: 15 GB
 - Memory Utilized: 418.57 MB
 ## Time 
-- Time Allotted: 00:30:00
+- Time Allotted: 03:00:00
 - Job Completion Time: 00:04:44
 ## Notes for the Future
 - Remember that you must configure the path to where the fastq files are located
