@@ -53,6 +53,7 @@ Breaking up the syntax:
 - ```--outdir ../fastqc_results```: after running FastQC on all the files on HB, put the results in the output directory
 
 Resource for FastQC Interpretation: [FastQC Manual](https://mugenomicscore.missouri.edu/PDF/FastQC_Manual.pdf)
+FastQC Script: [runfastqc.sh](PopGen_CAMINO/Lab Notebook/runfastqc.sh)
 
 # MultiQC Report
 MultiQC is a great tool for visualizing all the FastQC reports at once. 
