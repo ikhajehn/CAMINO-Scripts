@@ -35,6 +35,7 @@ In order to upload files into GitHub using terminal, a local repository and remo
 1. On GitHub, click on your profile icon and navigate to **Repositories**.
 2. Click the green **New** button (make sure Add README is toggled on).
 3. Click on **<> Code** and copy the HTTPS link to the repository to your clipboard (will be used in the following steps to create a local repository on HB)
+4. On Terminal, use the following commands to create a local repository in HB
 ```
 cd pout
 module load git
