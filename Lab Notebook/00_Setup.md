@@ -32,7 +32,7 @@ brew install git                      # download git
 
 In order to upload files into GitHub using terminal, a local repository and remote repository must be made. On GitHub, click on your profile icon and navigate to **Repositories**. Click the green **New** button (make sure Add README is toggled on). Afterwards, click on **<> Code** and copy the HTTPS link to the repository to your clipboard. That HTTPS link will be used in the following steps to create a local repository on HB
 ```
-cd ~/pout
+cd pout
 module load git
 git clone https://github.com/ikhajehn/CAMINO-Scripts.git
 ```
