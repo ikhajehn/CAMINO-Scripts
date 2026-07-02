@@ -73,6 +73,7 @@ Lastly, I downloaded the reads using ```fasterq-dump```
 ```
 fasterq-dump "{$SRA}"
 ```
+Script for Downloading SRA's from NCBI: [downloadfastq.sh](https://github.com/ikhajehn/PopGen_CAMINO/blob/main/Scripts/downloadfastq.sh)
 # Miscellaneous Notes 
 ## Memory
 - Allotted Memory: 10GB
