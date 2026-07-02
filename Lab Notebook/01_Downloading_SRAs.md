@@ -14,7 +14,7 @@ SRR...60
 ```
 Link to Data Set: [PRJNA1068064](https://www.ncbi.nlm.nih.gov/sra?term=PRJNA1068064&cmd=DetailsSearch)
 
-Original Study (Preprint): [10.21203/rs.3.rs-7212941/v1](10.21203/rs.3.rs-7212941/v1)
+Original Study (Preprint): [10.21203/rs.3.rs-7212941/v1]([10.21203/rs.3.rs-7212941/v1](https://www.researchgate.net/publication/394166455_Heat_stress_responsive_genes_are_not_affected_by_ocean_warming_long-term_environmental_monitoring_and_acute_thermal_stress_experiments_identify_non-overlapping_sets_of_differentially_expressed_genes_i))
 
 # Downloading SRA's From NCBI: Individually
 Once the list is created, a script can be written to initiate the downloading process. You can download SRA files individually without a script using the following:
