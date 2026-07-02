@@ -13,6 +13,6 @@ module load star && STAR --runMode genomeGenerate --genomeDir /home/ikhajehn/pou
 - ```--sjdbOverhang``` specifies the length of the genomic sequence around the annotated junction to be used in constructing the splice junctions database: Read length - 1 (in my case, it would be 150 - 1 = 149)
 - ```--runThreadN #``` defines the number of threads to be used for genome generation (must be equal to number of cores available (I used 8)
 
-[STAR Manual](file:///Users/brjda/Downloads/STARmanual.pdf)
+[STAR Manual](https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf)
 
 In Progress
